@@ -164,19 +164,19 @@ const SlidePresentation = () => {
       <div className="mb-6">
         <div className="flex border-b">
           <button 
-            className={`px-4 py-2 ${activeTab === 'overview' ? 'bg-blue-100 border-b-2 border-blue-500' : ''}`}
+            className={`px-4 py-2 ${activeTab === 'overview' ? 'bg-blue-600 text-white border-b-2 border-blue-700' : 'bg-gray-100 text-gray-900'} font-semibold`}
             onClick={() => setActiveTab('overview')}
           >
             Overview
           </button>
           <button 
-            className={`px-4 py-2 ${activeTab === 'slides' ? 'bg-blue-100 border-b-2 border-blue-500' : ''}`}
+            className={`px-4 py-2 ${activeTab === 'slides' ? 'bg-blue-600 text-white border-b-2 border-blue-700' : 'bg-gray-100 text-gray-900'} font-semibold`}
             onClick={() => setActiveTab('slides')}
           >
             Slide-by-Slide Brief
           </button>
           <button 
-            className={`px-4 py-2 ${activeTab === 'samples' ? 'bg-blue-100 border-b-2 border-blue-500' : ''}`}
+            className={`px-4 py-2 ${activeTab === 'samples' ? 'bg-blue-600 text-white border-b-2 border-blue-700' : 'bg-gray-100 text-gray-900'} font-semibold`}
             onClick={() => setActiveTab('samples')}
           >
             Sample Visualizations
@@ -185,7 +185,7 @@ const SlidePresentation = () => {
       </div>
       
       {activeTab === 'overview' && (
-        <div>
+        <div className="text-gray-900 bg-white rounded-lg p-6">
           <h2 className="text-2xl font-bold mb-4">Presentation Overview</h2>
           
           <div className="bg-orange-50 border-l-4 border-orange-500 p-4 mb-6">
