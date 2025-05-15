@@ -90,32 +90,32 @@ const SlidePresentation = () => {
   // Sample visualization of the Self-Determination Theory slide
   const SampleSlideVisualization = () => (
     <div className="bg-gray-100 p-6 rounded-lg mt-6">
-      <h3 className="text-xl font-bold mb-4 text-gray-800">Slide 3 Visualization: Self-Determination Theory</h3>
+      <h3 className="text-xl font-bold mb-4 text-gray-900">Slide 3 Visualization: Self-Determination Theory</h3>
       <div className="flex flex-col md:flex-row justify-between gap-6">
         <div className="bg-blue-100 p-4 rounded-lg flex-1">
           <div className="w-20 h-20 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
             <span className="text-white font-bold text-2xl">C</span>
           </div>
-          <h4 className="text-center font-bold mb-2">Competence</h4>
-          <p className="text-sm text-center">Feeling effective and capable at work</p>
+          <h4 className="text-center font-bold mb-2 text-gray-900">Competence</h4>
+          <p className="text-sm text-center text-gray-900">Feeling effective and capable at work</p>
         </div>
         <div className="bg-green-100 p-4 rounded-lg flex-1">
           <div className="w-20 h-20 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-4">
             <span className="text-white font-bold text-2xl">A</span>
           </div>
-          <h4 className="text-center font-bold mb-2">Autonomy</h4>
-          <p className="text-sm text-center">Having choice and control over actions</p>
+          <h4 className="text-center font-bold mb-2 text-gray-900">Autonomy</h4>
+          <p className="text-sm text-center text-gray-900">Having choice and control over actions</p>
         </div>
         <div className="bg-yellow-100 p-4 rounded-lg flex-1">
           <div className="w-20 h-20 bg-yellow-500 rounded-full flex items-center justify-center mx-auto mb-4">
             <span className="text-white font-bold text-2xl">R</span>
           </div>
-          <h4 className="text-center font-bold mb-2">Relatedness</h4>
-          <p className="text-sm text-center">Feeling connected to others</p>
+          <h4 className="text-center font-bold mb-2 text-gray-900">Relatedness</h4>
+          <p className="text-sm text-center text-gray-900">Feeling connected to others</p>
         </div>
       </div>
       <div className="mt-6 p-4 bg-white rounded-lg border border-gray-300">
-        <p className="text-sm text-gray-600 italic">Note to designer: Create a more refined version of this concept using Scratchie brand colors and styling. The elements should animate in one by one as James explains each pillar of Self-Determination Theory.</p>
+        <p className="text-sm italic text-gray-900">Note to designer: Create a more refined version of this concept using Scratchie brand colors and styling. The elements should animate in one by one as James explains each pillar of Self-Determination Theory.</p>
       </div>
     </div>
   );
@@ -123,35 +123,35 @@ const SlidePresentation = () => {
   // Sample visualization of the 4-step process
   const HowItWorksVisualization = () => (
     <div className="bg-gray-100 p-6 rounded-lg mt-6">
-      <h3 className="text-xl font-bold mb-4 text-gray-800">Slide 4 Visualization: How It Works</h3>
+      <h3 className="text-xl font-bold mb-4 text-gray-900">Slide 4 Visualization: How It Works</h3>
       <div className="flex flex-col md:flex-row justify-between gap-4">
         <div className="bg-white p-3 rounded-lg flex-1 border-l-4 border-orange-500">
           <div className="w-12 h-12 bg-orange-500 rounded-full flex items-center justify-center mb-2">
             <span className="text-white font-bold">1</span>
           </div>
-          <p className="text-sm">Supervisor spots good work</p>
+          <p className="text-sm text-gray-900">Supervisor spots good work</p>
         </div>
         <div className="bg-white p-3 rounded-lg flex-1 border-l-4 border-orange-500">
           <div className="w-12 h-12 bg-orange-500 rounded-full flex items-center justify-center mb-2">
             <span className="text-white font-bold">2</span>
           </div>
-          <p className="text-sm">Opens app, generates code</p>
+          <p className="text-sm text-gray-900">Opens app, generates code</p>
         </div>
         <div className="bg-white p-3 rounded-lg flex-1 border-l-4 border-orange-500">
           <div className="w-12 h-12 bg-orange-500 rounded-full flex items-center justify-center mb-2">
             <span className="text-white font-bold">3</span>
           </div>
-          <p className="text-sm">Worker scans & instantly wins</p>
+          <p className="text-sm text-gray-900">Worker scans & instantly wins</p>
         </div>
         <div className="bg-white p-3 rounded-lg flex-1 border-l-4 border-orange-500">
           <div className="w-12 h-12 bg-orange-500 rounded-full flex items-center justify-center mb-2">
             <span className="text-white font-bold">4</span>
           </div>
-          <p className="text-sm">Money hits account in 60 seconds</p>
+          <p className="text-sm text-gray-900">Money hits account in 60 seconds</p>
         </div>
       </div>
       <div className="mt-6 p-4 bg-white rounded-lg border border-gray-300">
-        <p className="text-sm text-gray-600 italic">Note to designer: Create a cleaner version with Scratchie app UI screenshots. Add subtle animation to show the progression from one step to the next. Below this, create three circular highlight areas for the new features: Convo Cards, Peer Recognition, and Recommendation Engine.</p>
+        <p className="text-sm italic text-gray-900">Note to designer: Create a cleaner version with Scratchie app UI screenshots. Add subtle animation to show the progression from one step to the next. Below this, create three circular highlight areas for the new features: Convo Cards, Peer Recognition, and Recommendation Engine.</p>
       </div>
     </div>
   );
@@ -224,12 +224,12 @@ const SlidePresentation = () => {
       
       {activeTab === 'slides' && (
         <div>
-          <h2 className="text-2xl font-bold mb-4">Slide-by-Slide Brief</h2>
+          <h2 className="text-2xl font-bold mb-4 text-gray-900">Slide-by-Slide Brief</h2>
           
           <div className="overflow-auto">
-            <table className="min-w-full bg-white border border-gray-300">
+            <table className="min-w-full bg-white border border-gray-300 text-gray-900">
               <thead>
-                <tr className="bg-gray-100">
+                <tr className="bg-gray-100 text-gray-900">
                   <th className="py-2 px-4 border-b text-left w-16">#</th>
                   <th className="py-2 px-4 border-b text-left">Title</th>
                   <th className="py-2 px-4 border-b text-left">Timing</th>
